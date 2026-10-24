@@ -1,0 +1,4 @@
+# Project scope only. Trust/loading and a real query must be verified separately.
+# Authentication, models, providers, and permissions remain in client settings.
+[mcp_servers.context7]
+url = "https://mcp.context7.com/mcp"

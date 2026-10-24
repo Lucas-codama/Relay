@@ -1,0 +1,20 @@
+# Local secrets and private evidence; reviewed example environment files may be shared.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+.local/
+*.log
+# Disposable/generated resources; do not version personal caches or exports.
+node_modules/
+dist/
+*.tsbuildinfo
+.venv/
+__pycache__/
+graphify-out/
+.DS_Store
+Thumbs.db

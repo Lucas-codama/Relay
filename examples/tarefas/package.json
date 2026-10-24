@@ -1,0 +1,6 @@
+{
+  "name": "relay-exemplo-tarefas",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node src/cli.js", "test": "node --test" }
+}

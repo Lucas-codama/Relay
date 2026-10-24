@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-24",
+  "scope": "Uma execução válida; exclui gastos anteriores de desenvolvimento e não representa economia geral ou cota da assinatura.",
+  "comparison": {
+    "comparable": true,
+    "adaptiveTokens": 8602,
+    "directTokens": 9829,
+    "savedTokens": 1227,
+    "savedPercent": 12.48,
+    "message": "Menos tokens observados nesta tarefa; resultado específico, sem taxa geral de economia da assinatura."
+  },
+  "adaptive": {
+    "status": "passed",
+    "usage": {
+      "input": 7588,
+      "cachedInput": 0,
+      "output": 1014,
+      "reasoningOutput": 0,
+      "total": 8602
+    },
+    "check": {
+      "status": "passed",
+      "failure": null,
+      "diagnostic": "5 testes passaram.",
+      "failedFiles": [],
+      "tests": 5,
+      "trusted": true
+    },
+    "contextBytes": 3036,
+    "attempts": [
+      {
+        "level": "light",
+        "profile": {
+          "model": "gpt-6-luna",
+          "effort": "low"
+        },
+        "usage": {
+          "input": 7588,
+          "cachedInput": 0,
+          "output": 1014,
+          "reasoningOutput": 0,
+          "total": 8602
+        },
+        "status": "passed",
+        "changed": [
+          "src/tasks.js",
+          "src/cli.js",
+          "README.md"
+        ],
+        "check": {
+          "status": "passed",
+          "failure": null,
+          "diagnostic": "5 testes passaram.",
+          "failedFiles": [],
+          "tests": 5,
+          "trusted": true
+        }
+      }
+    ]
+  },
+  "direct": {
+    "status": "passed",
+    "usage": {
+      "input": 7588,
+      "cachedInput": 0,
+      "output": 2241,
+      "reasoningOutput": 458,
+      "total": 9829
+    },
+    "check": {
+      "status": "passed",
+      "failure": null,
+      "diagnostic": "5 testes passaram.",
+      "failedFiles": [],
+      "tests": 5,
+      "trusted": true
+    },
+    "contextBytes": 3036,
+    "attempts": [
+      {
+        "level": "deep",
+        "profile": {
+          "model": "gpt-6.1-sol",
+          "effort": "high"
+        },
+        "usage": {
+          "input": 7588,
+          "cachedInput": 0,
+          "output": 2241,
+          "reasoningOutput": 458,
+          "total": 9829
+        },
+        "status": "passed",
+        "changed": [
+          "src/tasks.js",
+          "src/cli.js",
+          "README.md"
+        ],
+        "check": {
+          "status": "passed",
+          "failure": null,
+          "diagnostic": "5 testes passaram.",
+          "failedFiles": [],
+          "tests": 5,
+          "trusted": true
+        }
+      }
+    ]
+  },
+  "cacheValidation": {
+    "cacheHit": true,
+    "usage": {
+      "input": 0,
+      "cachedInput": 0,
+      "output": 0,
+      "reasoningOutput": 0,
+      "total": 0
+    },
+    "check": {
+      "status": "passed",
+      "failure": null,
+      "diagnostic": "5 testes passaram.",
+      "failedFiles": [],
+      "tests": 5,
+      "trusted": true
+    }
+  }
+}
